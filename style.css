@@ -1,0 +1,167 @@
+body {
+	overflow-x:hidden;
+	 }
+footer { background-color:#1e272e; color:gray;}
+
+.logoslika {
+	width:265px;
+	margin-top:-14px; }
+.margintop{
+	margin-top:13px;}
+.slikagore{
+	margin-top:-20px; }
+.width100 {
+	width: 100%; }
+.parallax1{
+	background-image: url(img/amfi.jpg);
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	}
+.parallax2{
+	background-image: url(img/onama1.jpg);
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color:white;}
+.onamaslika{
+	background-image: url(img/onama2.jpg);
+	height: 350px;
+	background-position: center;
+	background-size: cover;
+	color:white;}
+.odsecislika{
+	background-image: url(img/smerovi1.jpg);
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+	color:white;}
+.kontaktslika{
+	background-image: url(img/image.jpg);
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+	color:white;
+}
+.sredina{
+	padding-top:6%;}
+.svemargine{
+	margin:30px;
+}
+.ikonice{
+		padding: 5px;
+		}
+.unstyled { 
+	list-style-type:none;
+	  }
+.senkaslova{
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);}
+.justify {
+	text-align: justify;}
+.footerli{
+	margin-bottom:10px;}
+.marginadonja{
+	margin-bottom: 30px;}
+.divsivi{
+	background-color:#f5f6fa;}
+.divplavi {
+	background-color:#40739e;}
+.belaslova{
+	color:white;}
+.inostranstvo{
+	width:1200px;
+	height:400px;
+	background-size:cover;}			
+.vecitextodseci{
+	font-size: 1.4vw;}
+.onama{
+	position: absolute; 
+   	width: 100%; 
+   	font-size:75px;
+   	color:white;
+   	margin-top:110px;
+   		 }
+.odseci{ 
+	position: absolute; 
+   	top: 18%; 
+   	width: 100%; 
+   	font-size:75px;
+   	color:white;}
+.stupite{
+	 font-size:50px; }
+.triikonice{ 
+	width: 327px;
+   	height: 200px;
+    border: 2px solid white;
+    padding:20px;
+    margin-bottom: 15px;
+    margin-bottom: 100px;}   		
+.ikonicaborder{ 
+	font-size:36px;
+	color:white;
+	margin-bottom:8px;}
+.adresa {
+	 font-size:20px;}
+.razmaknaslov {
+	 margin-bottom: 60px;}
+.razmaknaslovgore{
+	margin-top:60px;}
+.ikonicefuter{ 
+	font-size:20px;
+	color:white;
+	margin-right:10px;}
+.scrollbox {
+	height:300px;
+	width:100%;
+	overflow:auto;
+	background-color:#40739e;
+	color:white;			
+	font-family:sans-serif;
+	padding:15px;
+	} 
+@media only screen and (max-width: 992px) {
+ 	.scrollbox { 
+ 		font-size: 12px;
+ 		margin-bottom:4px;}										 
+    .sredina {
+    	padding-top:12%; }
+    .logoslika {
+    	margin-top:-14px;
+    	width: 265px;}
+    .vecitextodseci{
+    	font-size: 15px;}	
+    .stupite {
+    	font-size:35px;
+    	margin-left:10px;}
+    .triikonice{
+    	width:100%;}
+    .caption {
+    	font-size: 25px;}
+    .kontaktslika{
+    	height: 400px;}
+    .odsecislika{
+    	height: 400px; }  
+    }
+@media only screen and (max-width: 768px) {
+	.sredina {
+		padding-top:20%;}
+	.logoslika {
+    	margin-top:-14px;
+    	width: 220px;
+    	margin-left:-22px;}
+	.vecitextodseci{
+		font-size: 17px;}
+	.stupite {
+		font-size:35px;
+	}
+	.kontaktslika{
+		height: 300px;}
+	.naslovscrolboxa {
+		font-size: 22px;}
+	.odsecislika{height: 300px;}
+	}
+	 }
